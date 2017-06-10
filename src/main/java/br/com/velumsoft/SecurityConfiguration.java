@@ -9,8 +9,7 @@ import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 
 @Configuration
 @Order( SecurityProperties.ACCESS_OVERRIDE_ORDER )
-public class SecurityConfiguration
-                                   extends WebSecurityConfigurerAdapter {
+public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure( HttpSecurity http ) throws Exception {
