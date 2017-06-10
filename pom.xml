@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>ui</name>
+	<name>uiServer</name>
 	<description>https://spring.io/blog/2015/01/12/spring-and-angular-js-a-secure-single-page-application</description>
 
 	<parent>
